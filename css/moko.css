@@ -99,7 +99,8 @@ p{
 }
 #menu li {
 	display:inline-block;
-	margin: 10px;
+	float: right;
+	margin: 10px 5px;
 	color: #000;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
@@ -131,8 +132,8 @@ p{
 }
 #menu{
 	position:fixed;
-	top:0;
-	left:0;
+	top:20px;
+	right:20px;
 	height: 40px;
 	z-index: 70;
 	width: 100%;
